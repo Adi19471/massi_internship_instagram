@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<style>
+    html,
+    body {}
+
+    .separate{
+        margin-top: -47px;
+        margin-left: 30px;
+    }
+
+    .ups{
+        margin-bott: -100px;
+    }
+    .left-namess{
+        
+        color: brown;
+       
+    }
+.onse-sides-logos{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: -10px;
+    background-color: rgb(150, 106, 48);
+    border: 3px solid gray;
+    text-indent: 10px;
+
+
+}
+    .container{
+        margin-top: -1510px;
+        position: fixed;
+        margin-left: 650px;
+    
+     
+    }
+
+    body {
+        background-color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        font-size: 20px;
+       
+    }
+
+    .flex {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navabar {
+        height: 56px;
+        position: fixed;
+        top: 0;
+        background-color: rgb(245, 242, 242);
+        border: 1px solid rgb(153, 149, 149);
+        width: 100%;
+
+    }
+
+    .nav-content {
+        padding: 0px 20px;
+        height: 56px;
+        width: 100%;
+
+    }
+
+    .logo {
+        margin-right: 25%;
+
+    }
+
+    .nav-search {
+        height: 25px;
+        width: 150px;
+        border: 1px solid rgb(153, 149, 149);
+        text-align: center;
+        border-radius: 8px;
+        background-color: white;
+    }
+
+    .nav-icons {
+        margin-left: 45px;
+        padding: 5px 15px;
+        font-size: 21px;
+
+    }
+
+    .stories-box {
+        width: 600px;
+        height: 80px;
+        background-color: white;
+        border-radius: 3px;
+        background-color: rgb(209, 209, 209);
+        margin-top: 90px;
+        margin-left: 18%;
+
+
+    }
+
+    .story {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+
+
+    }
+
+    .story-iamge {
+        border: 1px solid white;
+        border-radius: 50%;
+        width: 60px;
+        height: 40px;
+        margin-top: 15px;
+        padding: 1px;
+        margin-left: 10px;
+    }
+
+    small {
+        font-size: 15px;
+        font-family: monospace;
+        color: rgb(19, 16, 16);
+        text-transform: capitalize;
+        margin-left: 10px;
+        text-align: center;
+        margin-top: -4px;
+    }
+
+    .post-card {
+        margin-top: 20px;
+        border: 1px solid white;
+        border-radius: 3%;
+        background-color: white;
+        margin-top: 20px;
+        width: 600px;
+        margin-left: 205px;
+    }
+
+    .post-profile-image {
+        border-radius: 50%;
+        height: 25px;
+        margin-bottom: -4px;
+        width: 30px;
+
+
+    }
+
+    .post-tile {
+        display: flex;
+        align-items: center;
+    }
+
+    .post-tile-detailes {
+        margin-left: 7px;
+        display: flex;
+        flex-direction: column;
+        margin-top: -30px;
+        margin-left: 40px;
+
+    }
+
+    .post-username {
+        font-weight: 1000;
+        text-transform: capitalize;
+    }
+
+    .post-location {
+        color: gray;
+        font-weight: 500;
+        font-size: 10px;
+
+
+    }
+
+    .post-images {
+        width: 100%;
+        height: 100%;
+        margin-top: 10px;
+    }
+
+    .inferaction {
+        margin-right: 30px;
+        padding: 10px 10px;
+        display: inline-block;
+        font-size: 4px;
+        margin-left: 20px;
+        border-radius: 6%;
+        
+
+    }
+
+    #s {
+        margin-left: 450px;
+
+
+    }
+
+    .stats {
+        font-size: 10px;
+        display: flex;
+    }
+
+    .stats-img {
+        width: 20px;
+        height: 15px;
+        border-radius: 50%;
+    }
+
+    .desc {
+        background-color: white;
+        margin-top: 20px;
+
+    }
+
+    .desc {
+        font-weight: 560;
+    }
+
+    .view-all-comments {
+        font-weight: 100;
+    }
+
+    .comments {
+        font-weight: 200;
+    }
+
+    .duration-past {
+        font-weight: 300;
+        color: black;
+        text-transform: uppercase;
+        font-size: 15px;
+    }
+
+    .comment-line {
+        margin-left: 20px;
+        background-color: white;
+        display: flex;
+
+    }
+
+    .new-comment {
+        margin-left: 30px;
+        color: skyblue;
+        border: 1px solid black;
+        width: 150rem;
+    }
+
+    button {
+        margin-left: 270px;
+        color: blue;
+    }
+
+    .aside-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+
+    }
+
+    .aside-container {
+        margin-left: 70%;
+        display: flex;
+
+    }
+
+    .onse-sides-logo {
+        margin-left: 1px;
+        margin-right: -10px;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        margin-top: 100px;
+        margin-bottom: -10px;
+        display: inline;
+        position: sticky;
+        border: 2px ridge black;
+        background-color: rgba(14, 30, 82, 0.692);
+        position: sticky;
+        position: relative;
+
+    }
+
+    .onse-sides-logo::hover {
+        text-align: center;
+    }
+
+
+    .left-name {
+        font-size: 12px;
+    }
+
+   
+
+    .sps {
+        margin-top: -600px;
+        margin-left: 900px;
+    }
+
+    a {
+        margin-left: 60px;
+    }
+
+    -->.left-sides {
+        margin-top: -100px;
+    }
+
+    .left-side {
+        margin-top: -1800px;
+        margin-right: -10px;
+
+    }
+
+    h6 {
+        margin-left: 34px;
+        margin-top: -1px;
+
+    }
+
+    .spaq {
+        margin-left: 15px;
+        scroll-behavior: smooth;
+
+    }
+
+    .opso {
+        margin-left: -70px;
+    }
+
+    .all-small {
+        scroll-behavior: smooth;
+        display: flex;
+
+    }
+
+    a {
+
+        text-decoration: none;
+        font-size: 10px;
+        width: 20px;
+        margin-left: 10px;
+
+
+    }
+</style>
+
+<body>
+
+
+
+    <nav>
+        <div class="navabar flex">
+            <img class="logo"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe1mXowQOoDhnVexElVo_B017a1E__nKe8Yw&usqp=CAU"
+                alt="no images" width="150px" height="40px">
+            <input class="nav-search" type="text" placeholder="Search">
+            <div class="nav-icons">
+                <i class="fas fa-home"></i>
+                <i class="fab fa-internet-explorer"></i>
+                <i class="far fa-heart"></i>
+                <i class="fas fa-heart"></i>
+            </div>
+        </div>
+    </nav>
+    <!-- main page -->
+    <main>
+        <!-- left side start -->
+        <div class="left">
+            <div class="stories-box flex">
+                <!-- one stor -->
+                <div class="story">
+                    <img class="story-iamge"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6nqCHMGO8WQF5KnSqb-HqeiwQ3hdMx7KlxA&usqp=CAU"
+                        alt="">
+                    <small>kalyani</small>
+                </div>
+                <div class="story">
+                    <img class="story-iamge"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe0O0260hzKyKursZUTtZAxECP0gSVJ2JXwQ&usqp=CAU"
+                        alt="">
+                    <small>swetha</small>
+                </div>
+                <div class="story">
+                    <img class="story-iamge"
+                        src="https://images.pexels.com/photos/1181672/pexels-photo-1181672.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=50"
+                        alt="">
+                    <small>niharika</small>
+                </div>
+                <div class="story">
+                    <img class="story-iamge"
+                        src="https://media.istockphoto.com/photos/couple-in-love-hugging-at-cinema-picture-id1052501724?s=612x612"
+                        alt="">
+                    <small>fansika</small>
+                </div>
+                <div class="story">
+                    <img class="story-iamge" src="https://www.filmibeat.com/ph-big/2020/02/v-2020_158253142110.jpg"
+                        alt="">
+                    <small>Liz</small>
+                </div>
+                <div class="story">
+                    <img class="story-iamge"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv24w6_RjB2tejzfhrCtNs0vTqnWT7jUo9yw&usqp=CAU"
+                        alt="">
+                    <small>spinia</small>
+                </div>
+
+            </div>
+            <!-- post card -->
+            <div class="post-card">
+                <div class="post-title">
+                    <img class="post-profile-image"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOd256TcC6vcaQ99TYzoP0pBbch9_Q-bbrmw&usqp=CAU"
+                        alt="">
+                    <span class="post-tile-detailes">
+                        <span class="post-username">punetimes</span>
+                        <span class="post-location">Pune City</span>
+                    </span>
+
+                </div>
+                <!-- post images -->
+                <div>
+                    <img class="post-images"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL8uz94PNIj_N0DSupqDF3sBH8IDfdL6p9vw&usqp=CAU"
+                        class="img-fluid" alt="">
+                </div>
+                <!-- img icond under detaiels -->
+                <div class="inferaction">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-envelope-square"></i>
+                    <i class="fas fa-paper-plane"></i>
+                    <i class="far fa-bookmark" id="s"></i>
+                </div>
+                <div class="stats">
+                    <img class="stats-img"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL8uz94PNIj_N0DSupqDF3sBH8IDfdL6p9vw&usqp=CAU"
+                        alt="" class="img-fluid">&nbsp;&nbsp;&nbsp;<samll>liked me as a<strong>
+                            ADI</strong>&nbsp;&nbsp;&nbsp;019471&nbsp;<i>follows</i>&nbsp;&nbsp;&nbsp;<b>recently</b>
+                    </samll>
+                </div>
+                <div class="desc">
+                    <a href="" class="spy">Posttimtes:-</a> <strong>welcome</strong> to 1 day djangoadi Become Populer
+                </div>
+                <div class="view-all-comments">View all user 6 comments </div>
+                <div class="comments"> learnbay_datascience Great🙌</div>
+                <div class="duration-past">1day age</div>
+                <div class="comment-line">
+                    <span><i class="far fa-grin-beam"></i></span>
+                    <input class="new-comment" type="text" placeholder="Enter Your Comment">
+                    <button>POST</button>
+                </div>
+
+            </div>
+            <br>
+            <br>
+            <!-- 2nd  -->
+            <div class="post-card">
+                <div class="post-title">
+                    <img class="post-profile-image"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBckzIZQeFtDZifNARdZC7kE9qcxjoewSc6w&usqp=CAU"
+                        alt="">
+                    <span class="post-tile-detailes">
+                        <span class="post-username">punetimes</span>
+                        <span class="post-location">Pune City</span>
+                    </span>
+
+                </div>
+                <!-- post images -->
+                <div>
+                    <img class="post-images"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBckzIZQeFtDZifNARdZC7kE9qcxjoewSc6w&usqp=CAU"
+                        class="img-fluid" alt="">
+                </div>
+                <!-- img icond under detaiels -->
+                <div class="inferaction">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-envelope-square"></i>
+                    <i class="fas fa-paper-plane"></i>
+                    <i class="far fa-bookmark" id="s"></i>
+                </div>
+                <div class="stats">
+                    <img class="stats-img"
+                        src="https://buffer.com/resources/content/images/resources/wp-content/uploads/2018/11/free-images-social.png"
+                        alt="" class="img-fluid">&nbsp;&nbsp;&nbsp;<samll>liked me as a<strong>
+                            ADI</strong>&nbsp;&nbsp;&nbsp;019471&nbsp;<i>follows</i>&nbsp;&nbsp;&nbsp;<b>recently</b>
+                    </samll>
+                </div>
+                <div class="desc">
+                    <a href="" class="spy">Posttimtes:-</a> <strong>welcome</strong> to 1 day djangoadi Become Populer
+                </div>
+                <div class="view-all-comments">View all user 6 comments </div>
+                <div class="comments"> learnbay_datascience Great🙌</div>
+                <div class="duration-past">1day age</div>
+                <div class="comment-line">
+                    <span><i class="far fa-grin-beam"></i></span>
+                    <input class="new-comment" type="text" placeholder="Enter Your Comment">
+                    <button>POST</button>
+                </div>
+
+            </div>
+            <br>
+            <br>
+
+
+            <!-- 3rd  -->
+            <div class="post-card">
+                <div class="post-title">
+                    <img class="post-profile-image"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOd256TcC6vcaQ99TYzoP0pBbch9_Q-bbrmw&usqp=CAU"
+                        alt="">
+                    <span class="post-tile-detailes">
+                        <span class="post-username">punetimes</span>
+                        <span class="post-location">Pune City</span>
+                    </span>
+
+                </div>
+                <!-- post images -->
+                <div>
+                    <img class="post-images"
+                        src="https://image.shutterstock.com/image-vector/idea-concept-creative-bulb-sign-260nw-1555544078.jpg"
+                        class="img-fluid" alt="">
+                </div>
+                <!-- img icond under detaiels -->
+                <div class="inferaction">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-envelope-square"></i>
+                    <i class="fas fa-paper-plane"></i>
+                    <i class="far fa-bookmark" id="s"></i>
+                </div>
+                <div class="stats">
+                    <img class="stats-img"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWzAGn8IfmjtNKCpYT7KVzav_AFsDUBRgbrbd-17tdheBJddgPEKH2r0W-lomaaT-hGAQ&usqp=CAU"
+                        alt="" class="img-fluid">&nbsp;&nbsp;&nbsp;<samll>liked me as a<strong>
+                            ADI</strong>&nbsp;&nbsp;&nbsp;019471&nbsp;<i>follows</i>&nbsp;&nbsp;&nbsp;<b>recently</b>
+                    </samll>
+                </div>
+                <div class="desc">
+                    <a href="">Posttimtes:-</a> <strong>welcome</strong> to 1 day djangoadi Become Populer
+                </div>
+                <div class="view-all-comments">View all user 6 comments </div>
+                <div class="comments"> learnbay_datascience Great🙌</div>
+                <div class="duration-past">1day age</div>
+                <div class="comment-line">
+                    <span><i class="far fa-grin-beam"></i></span>
+                    <input class="new-comment" type="text" placeholder="Enter Your Comment">
+                    <button>POST</button>
+                </div>
+
+            </div>
+            <br>
+            <br>
+
+
+            <div class="post-card">
+                <div class="post-title">
+                    <img class="post-profile-image"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOd256TcC6vcaQ99TYzoP0pBbch9_Q-bbrmw&usqp=CAU"
+                        alt="">
+                    <span class="post-tile-detailes">
+                        <span class="post-username">punetimes</span>
+                        <span class="post-location">Pune City</span>
+                    </span>
+
+                </div>
+                <!-- post images -->
+                <div>
+                    <img class="post-images"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL8uz94PNIj_N0DSupqDF3sBH8IDfdL6p9vw&usqp=CAU"
+                        class="img-fluid" alt="">
+                </div>
+                <!-- img icond under detaiels -->
+                <div class="inferaction">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-envelope-square"></i>
+                    <i class="fas fa-paper-plane"></i>
+                    <i class="far fa-bookmark" id="s"></i>
+                </div>
+                <div class="stats">
+                    <img class="stats-img"
+                        src="https://buffer.com/resources/content/images/resources/wp-content/uploads/2018/11/free-images-social.png"
+                        alt="" class="img-fluid">&nbsp;&nbsp;&nbsp;<samll>liked me as a<strong>
+                            ADI</strong>&nbsp;&nbsp;&nbsp;019471&nbsp;<i>follows</i>&nbsp;&nbsp;&nbsp;<b>recently</b>
+                    </samll>
+                </div>
+                <div class="desc">
+                    <a href="">Posttimtes:-</a> <strong>welcome</strong> to 1 day djangoadi Become Populer
+                </div>
+                <div class="view-all-comments">View all user 6 comments </div>
+                <div class="comments"> learnbay_datascience Great🙌</div>
+                <div class="duration-past">1day age</div>
+                <div class="comment-line">
+                    <span><i class="far fa-grin-beam"></i></span>
+                    <input class="new-comment" type="text" placeholder="Enter Your Comment">
+                    <button>POST</button>
+                </div>
+
+            </div>
+            <br>
+            <br>
+
+            <!-- 4th place -->
+            <div class="post-card">
+                <div class="post-title">
+                    <img class="post-profile-image"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOd256TcC6vcaQ99TYzoP0pBbch9_Q-bbrmw&usqp=CAU"
+                        alt="">
+                    <span class="post-tile-detailes">
+                        <span class="post-username">punetimes</span>
+                        <span class="post-location">Pune City</span>
+                    </span>
+
+                </div>
+                <!-- post images -->
+                <div>
+                    <img class="post-images"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdw-Y2zmxlVno5mNKH36wwME5Yb92mhik5Ew&usqp=CAU"
+                        class="img-fluid" alt="">
+                </div>
+                <!-- img icond under detaiels -->
+                <div class="inferaction">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-envelope-square"></i>
+                    <i class="fas fa-paper-plane"></i>
+                    <i class="far fa-bookmark" id="s"></i>
+                </div>
+                <div class="stats">
+                    <img class="stats-img"
+                        src="https://cdn.pixabay.com/photo/2018/01/12/10/19/fantasy-3077928_960_720.jpg"
+                        alt="" class="img-fluid">&nbsp;&nbsp;&nbsp;<samll>liked me as a<strong>
+                            ADI</strong>&nbsp;&nbsp;&nbsp;019471&nbsp;<i>follows</i>&nbsp;&nbsp;&nbsp;<b>recently</b>
+                    </samll>
+                </div>
+                <div class="desc">
+                    <a href="" class="spy">Posttimtes:-</a> <strong>welcome</strong> to 1 day djangoadi Become Populer
+                </div>
+                <div class="view-all-comments">View all user 6 comments </div>
+                <div class="comments"> learnbay_datascience Great🙌</div>
+                <div class="duration-past">1day age</div>
+                <div class="comment-line">
+                    <span><i class="far fa-grin-beam"></i></span>
+                    <input class="new-comment" type="text" placeholder="Enter Your Comment">
+                    <button>POST</button>
+                </div>
+
+            </div>
+        </div>
+
+
+        </div>
+
+        <!-- left hand side -->
+        <div class="container">
+            <div class="aside-container">
+                <div class="left-side">
+                    <img src="https://ih1.redbubble.net/image.452152317.4076/st,small,507x507-pad,600x600,f8f8f8.u4.jpg"
+                        alt="" class="onse-sides-logos"  >
+                        <div class="separate">
+                            <a href="" id="ups">adinarayanareddy61</a>
+                        <small class="left-namess">ADINARAYANAREDDY</small>
+                        <a href="" class="left-namess">SWITCH</a>
+                        </div>
+    
+                    <br>
+                    <br>
+    
+                    <a href="" class="spaq">Suggestions For You</a>
+                    <a href="" class="opsos">See All</a>
+                    <br><br>
+    
+                    <div class="left-sides">
+                        <img src="https://ih1.redbubble.net/image.452152317.4076/st,small,507x507-pad,600x600,f8f8f8.u4.jpg"
+                            alt="" class="onse-sides-logo">
+                        <small class="left-name">ADI NARAYANA REDDY</small>
+                        <a href="">SWITCH</a>
+                        <h6>adi</h6>
+                    </div>
+    
+                    <div class="left-sides">
+                        <img src="https://ih1.redbubble.net/image.452152317.4076/st,small,507x507-pad,600x600,f8f8f8.u4.jpg"
+                            alt="" class="onse-sides-logo">
+                        <small class="left-name">ADI NARAYANA REDDY</small>
+                        <a href="">SWITCH</a>
+                        <h6>adi</h6>
+                    </div>
+    
+                    <div class="left-sides">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMX1pVOISZ8y7vAmFPKVQ9vcHxy82XEleg8Q&usqp=CAU"
+                            alt="" class="onse-sides-logo">
+                        <small class="left-name">ADI NARAYANA REDDY</small>
+                        <a href="">SWITCH</a>
+                        <h6>adi</h6>
+                    </div>
+                    <!-- side container -->
+                    <nav class="all-small">
+                        <a href="">About</a>
+                        <a href="">Home</a>
+                        <a href="">Services</a>&nbsp;&nbsp;
+                        <a href="">Team</a>
+                        <a href="">conditiuons</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="">Team</a>&nbsp;&nbsp;
+                        <a href="">conditiuons</a>
+    
+                    </nav>
+                </div>
+            </div>
+    
+        </div>
+
+        </div>
+
+
+    </main>
+</body>
+
+</html>
